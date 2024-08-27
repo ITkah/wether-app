@@ -106,7 +106,8 @@ export default {
 @media (max-width: 990px) {
   .wether {
     width: 90vw;
-    height: 50vh;
+    height: auto;
+    min-height: 350px;
   }
 }
 .wether__title {
